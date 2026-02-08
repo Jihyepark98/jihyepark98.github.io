@@ -68,47 +68,30 @@ education: [
       ],
     },
   ],
-  projects: [
+projects: [
     {
-      name: "Talking Face Generation", [cite: 34]
+      name: "Talking Face Generation",
       description:
-        "Studied multi-modal learning using audio and image domains. Designed a model using GAN inversion to learn the mapping between audio and image in latent space, generating virtual humans with face swap and teeth generative methods.", [cite: 37, 38, 39]
-      link: "#",
-      skills: ["GAN Inversion", "Multi-modal Learning", "Python"], [cite: 37, 38, 91]
+        "National project focused on multi-modal learning between audio and image domains. Designed a GAN inversion-based model to map audio to latent space, enabling virtual human generation with face swap and teeth synthesis technologies.",
+      skills: ["Multi-modal Learning", "GAN Inversion", "Virtual Human"],
     },
     {
-      name: "Complex Scene Translation", [cite: 47]
+      name: "Complex Scene Translation (HYUNDAI MOBIS)",
       description:
-        "Solved instance-aware translation tasks using diffusion models, changing domains (e.g., Sunny to Night) while preserving detailed instance information in complex road scenes.", [cite: 50]
-      link: "#",
-      skills: ["Diffusion Models", "Image-to-Image Translation"], [cite: 50]
+        "Developed an instance-aware translation system using diffusion models to change scene domains (e.g., Sunny to Night) while preserving critical instance details in complex road environments.",
+      skills: ["Diffusion Models", "Instance-aware Translation", "Autonomous Driving"],
     },
     {
-      name: "Smart Child Care Project", [cite: 42]
+      name: "Transformer-based Restoration Model",
       description:
-        "Proposed pose estimation and object detection methods to detect children's behavior, improving performance by adapting pre-trained models to specialized datasets.", [cite: 44, 45]
-      link: "#",
-      skills: ["Pose Estimation", "Object Detection"], [cite: 44]
-    },
-  ],
-  education: [
-    {
-      school: "Korea University", [cite: 7]
-      degree: "Master in Computer Science", [cite: 8]
-      dateRange: "Mar. 2022 - Feb. 2024", [cite: 12, 26]
-      achievements: [
-        "Specialized in Generative AI and Multi-modal synthesis", [cite: 3, 4]
-        "Award for Academic Excellence", [cite: 80]
-      ],
+        "Collaboration with Samsung Electronics to study and validate the performance of various transformer architectures in image restoration tasks.",
+      skills: ["Transformer", "Image Restoration", "Samsung Electronics"],
     },
     {
-      school: "Korea University", [cite: 9]
-      degree: "Bachelor in Mathematics", [cite: 10]
-      dateRange: "Mar. 2017 - Feb. 2022", [cite: 13]
-      achievements: [
-        "Double major in Computer Science",
-        "Multiple Awards for Academic Excellence", [cite: 82]
-      ],
+      name: "Smart Child Care Project",
+      description:
+        "National project proposing pose estimation and object detection methods tailored for children's behavior. Enhanced performance by fine-tuning large-scale pre-trained models on specialized datasets.",
+      skills: ["Pose Estimation", "Object Detection", "Deep Learning"],
     },
   ],
 };
