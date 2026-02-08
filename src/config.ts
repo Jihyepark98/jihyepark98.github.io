@@ -23,30 +23,30 @@ export const siteConfig = {
         "Engineer advanced restoration models specialized for RAW data processing to maximize signal-to-noise ratio and detail preservation.",
       ],
     },
-    {
-      company: "Computer Vision Course",
-      title: "Teaching Assistant",
-      dateRange: "Sep. 2023 - Feb. 2024",
-      bullets: [
-        "Assisted in managing the graduate-level Computer Vision course.",
-      ],
-    },
-    {
-      company: "Linear Algebra Course",
-      title: "Teaching Assistant",
-      dateRange: "Mar. 2022 - Jun. 2022",
-      bullets: [
-        "Facilitated learning for students in the Linear Algebra course.",
-      ],
-    },
-    {
-      company: "Korea University CVLAB",
-      title: "Undergraduate Researcher",
-      dateRange: "Jan. 2021 - Feb. 2022",
-      bullets: [
-        "Participated in research related to generative adversarial models and image translation.",
-      ],
-    },
+    // {
+    //   company: "Computer Vision Course",
+    //   title: "Teaching Assistant",
+    //   dateRange: "Sep. 2023 - Feb. 2024",
+    //   bullets: [
+    //     "Assisted in managing the graduate-level Computer Vision course.",
+    //   ],
+    // },
+    // {
+    //   company: "Linear Algebra Course",
+    //   title: "Teaching Assistant",
+    //   dateRange: "Mar. 2022 - Jun. 2022",
+    //   bullets: [
+    //     "Facilitated learning for students in the Linear Algebra course.",
+    //   ],
+    // },
+    // {
+    //   company: "Korea University CVLAB",
+    //   title: "Undergraduate Researcher",
+    //   dateRange: "Jan. 2021 - Feb. 2022",
+    //   bullets: [
+    //     "Participated in research related to generative adversarial models and image translation.",
+    //   ],
+    // },
   ],
   education: [
     {
