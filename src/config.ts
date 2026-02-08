@@ -54,8 +54,7 @@ export const siteConfig = {
       dateRange: "Mar. 2022 - Feb. 2024",
       achievements: [
         "Advisor: Prof. Seungryong Kim",
-        "Focused on Generative AI, Audio-driven synthesis, and Text-guided image translation",
-        "Award for Academic Excellence",
+        "Generative AI, Audio-driven synthesis, and Text-guided image translation",
       ],
     },
     {
@@ -63,7 +62,6 @@ export const siteConfig = {
       degree: "Bachelor in Mathematics",
       dateRange: "Mar. 2017 - Feb. 2022",
       achievements: [
-        "Double Major in Computer Science",
         "Multiple Awards for Academic Excellence (2020, 2021)",
       ],
     },
