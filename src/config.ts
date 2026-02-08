@@ -1,17 +1,17 @@
 export const siteConfig = {
-  name: "Jihye Park", [cite: 1]
-  title: "AI Researcher", [cite: 15]
-  description: "Portfolio website of Jihye Park, AI Researcher specialized in Generative Models and Image Restoration", [cite: 3, 5]
+  name: "Jihye Park",
+  title: "AI Researcher",
+  description: "Portfolio website of Jihye Park, AI Researcher specialized in Generative Models and Image Restoration",
   accentColor: "#1d4ed8",
   social: {
-    email: "ghp1112@korea.ac.kr", [cite: 1]
-    linkedin: "https://www.linkedin.com/in/jihye-park-3b481923a/, 
+    email: "ghp1112@korea.ac.kr",
+    linkedin: "https://www.linkedin.com/in/jihye-park-3b481923a/",
     github: "https://github.com/Jihyepark98",
   },
   aboutMe:
-    "Dedicated AI Researcher focused on pushing the boundaries of Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation, resulting in high-impact academic contributions at top-tier conferences. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.", [cite: 3, 4, 5, 14]
-  skills: ["Python", "PyTorch", "Git", "Docker", "Linux", "LaTeX"], [cite: 17, 31, 37, 91, 93, 95]
-experience: [
+    "Dedicated AI Researcher focused on pushing the boundaries of Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation, resulting in high-impact academic contributions at top-tier conferences. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.",
+  skills: ["Python", "PyTorch", "Git", "Docker", "Linux", "LaTeX"],
+  experience: [
     {
       company: "Samsung Electronics, MX",
       title: "AI Researcher",
@@ -47,7 +47,7 @@ experience: [
       ],
     },
   ],
-education: [
+  education: [
     {
       school: "Korea University",
       degree: "Master in Computer Science",
@@ -68,7 +68,7 @@ education: [
       ],
     },
   ],
-projects: [
+  projects: [
     {
       name: "Talking Face Generation",
       description:
@@ -78,7 +78,7 @@ projects: [
     {
       name: "Complex Scene Translation (HYUNDAI MOBIS)",
       description:
-        "Developed an instance-aware translation system using diffusion models to change scene domains (e.g., Sunny to Night) while preserving critical instance details in complex road environments.",
+        "Developed an instance-aware translation system using diffusion models to change scene domains (e.g., Sunny to Night) while preserving detailed instance information in complex road environments.",
       skills: ["Diffusion Models", "Instance-aware Translation", "Autonomous Driving"],
     },
     {
