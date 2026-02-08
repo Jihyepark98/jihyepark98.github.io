@@ -7,6 +7,7 @@ export const siteConfig = {
     email: "ghp1112@korea.ac.kr",
     linkedin: "https://www.linkedin.com/in/jihye-park-3b481923a/",
     github: "https://github.com/Jihyepark98",
+    scholar: "https://scholar.google.com/citations?user=Fg0DBKwAAAAJ&hl=ko", 
   },
   aboutMe:
     "Dedicated AI Researcher focused on pushing the boundaries of Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation, resulting in high-impact academic contributions at top-tier conferences. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.",
