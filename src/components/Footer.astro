@@ -70,30 +70,34 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               ></path></svg
             >
           </a>
-          <a
-            href={siteConfig.social.twitter}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
-            style={`--accent-color: ${siteConfig.accentColor}`}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="h-6 w-6"
-              ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path
-                d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg
+
+          {/* Twitter가 삭제되고 Google Scholar가 추가되었습니다 */}
+          {siteConfig.social.scholar && (
+            <a
+              href={siteConfig.social.scholar}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Google Scholar"
+              class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+              style={`--accent-color: ${siteConfig.accentColor}`}
             >
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6"
+              >
+                <path d="M12 24a7 7 0 1 1 0 -14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.83A8 8 0 0 1 12 9.5a8 8 0 0 1 7.162 3.83L24 9.5z" stroke="none" fill="currentColor"/>
+              </svg>
+            </a>
+          )}
+
           <a
             href={siteConfig.social.github}
             target="_blank"
@@ -167,7 +171,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     </div>
   </div>
 
-  <!-- Decorative pattern -->
+  {/* Decorative pattern */}
   <div class="absolute inset-0 -z-10 overflow-hidden">
     <svg
       aria-hidden="true"
