@@ -10,7 +10,7 @@ export const siteConfig = {
     scholar: "https://scholar.google.com/citations?user=Fg0DBKwAAAAJ&hl=ko", 
   },
   aboutMe:
-    "AI Researcher who is interested in Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation, resulting in high-impact academic contributions at top-tier conferences. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.",
+    "AI Researcher who is interested in Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.",
   skills: ["Python", "PyTorch", "Git", "Docker", "Linux", "LaTeX"],
   experience: [
     {
