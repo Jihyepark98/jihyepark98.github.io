@@ -17,9 +17,9 @@ export const siteConfig = {
       title: "AI Researcher",
       dateRange: "Mar. 2024 - Present",
       bullets: [
-        "Spearheaded the development of high-performance image restoration solutions (Denoising, Super-Resolution) by leveraging state-of-the-art Generative Models, specifically focusing on Diffusion models.",
-        "Optimized generative AI pipelines for on-device deployment, enhancing the visual quality of mobile photography in Galaxy devices.",
-        "Engineered advanced restoration models specialized for RAW data processing to maximize signal-to-noise ratio and detail preservation.",
+        "Develop high-performance image restoration solutions (Denoising, Super-Resolution) by leveraging state-of-the-art Generative Models, specifically focusing on Diffusion models.",
+        "Optimize generative AI pipelines for on-device deployment, enhancing the visual quality of mobile photography in Galaxy devices.",
+        "Engineer advanced restoration models specialized for RAW data processing to maximize signal-to-noise ratio and detail preservation.",
       ],
     },
     {
