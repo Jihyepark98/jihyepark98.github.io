@@ -28,7 +28,7 @@ export const siteConfig = {
       title: "Teaching Assistant",
       dateRange: "Sep. 2023 - Feb. 2024",
       bullets: [
-        "Assisted in managing the graduate-level Computer Vision course, supporting student projects and grading.",
+        "Assisted in managing the graduate-level Computer Vision course.",
       ],
     },
     {
@@ -36,7 +36,7 @@ export const siteConfig = {
       title: "Teaching Assistant",
       dateRange: "Mar. 2022 - Jun. 2022",
       bullets: [
-        "Facilitated learning for students in the Linear Algebra course, focusing on mathematical foundations for AI.",
+        "Facilitated learning for students in the Linear Algebra course.",
       ],
     },
     {
