@@ -1,91 +1,92 @@
-export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+title: "AI Researcher", [cite: 15]
+  description: "Portfolio website of Jihye Park, AI Researcher specialized in Generative Models and Image Restoration", [cite: 3, 5]
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ghp1112@korea.ac.kr", [cite: 1]
+    linkedin: "https://www.linkedin.com/in/jihye-park-3b481923a/", // 본인의 링크로 수정하세요
+    github: "https://github.com/Jihyepark98",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
+    "Dedicated AI Researcher focused on pushing the boundaries of Generative AI. I have extensive experience in multi-modal generative research, specifically in audio-driven synthesis and text-guided image translation, resulting in high-impact academic contributions at top-tier conferences. Currently, I am a researcher at Samsung Electronics (MX Division), where I develop and optimize generative pipelines for image restoration tasks, including denoising and super-resolution, to deliver enhanced visual experiences.", [cite: 3, 4, 5, 14]
+  skills: ["Python", "PyTorch", "Git", "Docker", "Linux", "LaTeX"], [cite: 17, 31, 37, 91, 93, 95]
+
+experience: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      company: "Samsung Electronics, MX",
+      title: "AI Researcher",
+      dateRange: "Mar. 2024 - Present",
+      bullets: [
+        "Spearheaded the development of high-performance image restoration solutions (Denoising, Super-Resolution) by leveraging state-of-the-art Generative Models, specifically focusing on Diffusion models.",
+        "Optimized generative AI pipelines for on-device deployment, enhancing the visual quality of mobile photography in Galaxy devices.",
+        "Engineered advanced restoration models specialized for RAW data processing to maximize signal-to-noise ratio and detail preservation.",
+      ],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      company: "Computer Vision Course",
+      title: "Teaching Assistant",
+      dateRange: "Sep. 2023 - Feb. 2024",
+      bullets: [
+        "Assisted in managing the graduate-level Computer Vision course, supporting student projects and grading.",
+      ],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      company: "Linear Algebra Course",
+      title: "Teaching Assistant",
+      dateRange: "Mar. 2022 - Jun. 2022",
+      bullets: [
+        "Facilitated learning for students in the Linear Algebra course, focusing on mathematical foundations for AI.",
+      ],
+    },
+    {
+      company: "Korea University CVLAB",
+      title: "Undergraduate Researcher",
+      dateRange: "Jan. 2021 - Feb. 2022",
+      bullets: [
+        "Participated in research related to generative adversarial models and image translation.",
+      ],
     },
   ],
-  experience: [
+
+projects: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+      name: "Talking Face Generation", [cite: 34]
+      description:
+        "Studied multi-modal learning using audio and image domains. Designed a model using GAN inversion to learn the mapping between audio and image in latent space, generating virtual humans with face swap and teeth generative methods.", [cite: 37, 38, 39]
+      link: "#",
+      skills: ["GAN Inversion", "Multi-modal Learning", "Python"], [cite: 37, 38, 91]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+      name: "Complex Scene Translation", [cite: 47]
+      description:
+        "Solved instance-aware translation tasks using diffusion models, changing domains (e.g., Sunny to Night) while preserving detailed instance information in complex road scenes.", [cite: 50]
+      link: "#",
+      skills: ["Diffusion Models", "Image-to-Image Translation"], [cite: 50]
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
+      name: "Smart Child Care Project", [cite: 42]
+      description:
+        "Proposed pose estimation and object detection methods to detect children's behavior, improving performance by adapting pre-trained models to specialized datasets.", [cite: 44, 45]
+      link: "#",
+      skills: ["Pose Estimation", "Object Detection"], [cite: 44]
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Korea University", [cite: 7]
+      degree: "Master in Computer Science", [cite: 8]
+      dateRange: "Mar. 2022 - Feb. 2024", [cite: 12, 26]
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Specialized in Generative AI and Multi-modal synthesis", [cite: 3, 4]
+        "Award for Academic Excellence", [cite: 80]
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Korea University", [cite: 9]
+      degree: "Bachelor in Mathematics", [cite: 10]
+      dateRange: "Mar. 2017 - Feb. 2022", [cite: 13]
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Double major in Computer Science",
+        "Multiple Awards for Academic Excellence", [cite: 82]
       ],
     },
   ],
