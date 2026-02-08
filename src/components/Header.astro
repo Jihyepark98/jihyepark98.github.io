@@ -20,6 +20,17 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           About
         </a>
       </li>
+      
+      {/* Publications 섹션 링크 추가 */}
+      <li>
+        <a
+          href="#publications"
+          class="text-gray-700 hover:text-black transition-colors font-medium"
+        >
+          Publications
+        </a>
+      </li>
+
       {
         hasProjects && (
           <li>
@@ -56,6 +67,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           </li>
         )
       }
+
+      {/* CV 다운로드 링크 추가 - PDF 파일명과 일치해야 함 */}
+      <li>
+        <a
+          href="/Jihye_Park_CV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-blue-600 hover:text-blue-800 transition-colors font-bold border-l pl-8 ml-2"
+        >
+          CV
+        </a>
+      </li>
     </ul>
   </nav>
 </header>
