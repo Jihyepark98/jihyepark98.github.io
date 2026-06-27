@@ -1,11 +1,15 @@
 ---
-import type { Config } from "../config";
+import type { siteConfig } from "../config";
+
 interface Props {
-  awards: Config["awards"];
+  awards: typeof siteConfig.awards;
 }
+
 const { awards } = Astro.props;
+
 if (!awards || awards.length === 0) return;
 ---
+
 <section id="awards" class="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
   <h2 class="text-2xl font-bold mb-8 text-gray-900 dark:text-white">
     Awards & Honors
