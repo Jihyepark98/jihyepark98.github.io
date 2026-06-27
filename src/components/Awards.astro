@@ -1,8 +1,14 @@
 ---
-import type { siteConfig } from "../config";
+interface Award {
+  title: string;
+  organization: string;
+  date: string;
+  description?: string;
+  link?: string;
+}
 
 interface Props {
-  awards: typeof siteConfig.awards;
+  awards: Award[];
 }
 
 const { awards } = Astro.props;
