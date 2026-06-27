@@ -1,0 +1,52 @@
+---
+import type { Config } from "../config";
+
+interface Props {
+  awards: Config["awards"];
+}
+
+const { awards } = Astro.props;
+
+if (!awards || awards.length === 0) return;
+---
+
+<section id="awards" class="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+  <h2 class="text-2xl font-bold mb-8 text-gray-900 dark:text-white">
+    Awards & Honors
+  </h2>
+  <div class="space-y-6">
+    {
+      awards.map((award) => (
+        <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-6">
+          <span class="text-sm text-gray-500 dark:text-gray-400 sm:w-28 shrink-0 pt-0.5">
+            {award.date}
+          </span>
+          <div>
+            {award.link ? (
+              
+                href={award.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-semibold text-gray-900 dark:text-white hover:underline"
+              >
+                {award.title}
+              </a>
+            ) : (
+              <p class="font-semibold text-gray-900 dark:text-white">
+                {award.title}
+              </p>
+            )}
+            <p class="text-sm text-gray-600 dark:text-gray-300">
+              {award.organization}
+            </p>
+            {award.description && (
+              <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                {award.description}
+              </p>
+            )}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
