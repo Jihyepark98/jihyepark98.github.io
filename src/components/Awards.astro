@@ -6,16 +6,12 @@ interface Award {
   description?: string;
   link?: string;
 }
-
 interface Props {
   awards: Award[];
 }
-
 const { awards } = Astro.props;
-
 if (!awards || awards.length === 0) return;
 ---
-
 <section id="awards" class="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
   <h2 class="text-2xl font-bold mb-8 text-gray-900 dark:text-white">
     Awards & Honors
@@ -28,20 +24,12 @@ if (!awards || awards.length === 0) return;
             {award.date}
           </span>
           <div>
-            {award.link ? (
-              
-                href={award.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="font-semibold text-gray-900 dark:text-white hover:underline"
-              >
-                {award.title}
-              </a>
-            ) : (
-              <p class="font-semibold text-gray-900 dark:text-white">
-                {award.title}
-              </p>
-            )}
+            <p class="font-semibold text-gray-900 dark:text-white">
+              {award.link
+                ? <a href={award.link} target="_blank" rel="noopener noreferrer" class="hover:underline">{award.title}</a>
+                : award.title
+              }
+            </p>
             <p class="text-sm text-gray-600 dark:text-gray-300">
               {award.organization}
             </p>
