@@ -68,6 +68,29 @@ export const siteConfig = {
       ],
     },
   ],
+  awards: [
+  {
+    title: "1st Place — NTIRE 2026 Challenge on Image Super-Resolution (Track 1 & 2)",
+    organization: "CVPR 2026 Workshop (NTIRE)",
+    date: "2026.06",
+    description: "Image Super-Resolution Track 1, 2 모두 1위 달성",
+    link: "https://arxiv.org/pdf/2604.14558",
+  },
+  {
+    title: "3rd Place — NTIRE 2026 Challenge on Mobile Real-World Image Super-Resolution",
+    organization: "CVPR 2026 Workshop (NTIRE)",
+    date: "2026.06",
+    description: "The First Challenge on Mobile Real-World Image Super-Resolution",
+    link: "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Li_The_First_Challenge_on_Mobile_Real-World_Image_Super-Resolution_at_NTIRE_CVPRW_2026_paper.pdf",
+  },
+  {
+    title: "1st Place — NTIRE 2026 Blind Computational Aberration Correction Challenge",
+    organization: "CVPR 2026 Workshop (NTIRE)",
+    date: "2026.06",
+    description: "The First Challenge on Blind Computational Aberration Correction",
+    link: "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Sun_NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_CVPRW_2026_paper.pdf",
+  },
+],
   projects: [
     {
       name: "Talking Face Generation",
